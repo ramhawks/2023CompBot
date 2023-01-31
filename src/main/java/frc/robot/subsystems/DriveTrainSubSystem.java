@@ -36,6 +36,7 @@ private static final CANSparkMax rightSecondary = new CANSparkMax(Constants.Driv
 
     leftPrimary.burnFlash(); leftSecondary.burnFlash();
     rightPrimary.burnFlash(); rightSecondary.burnFlash();
+    
 
   }
 
