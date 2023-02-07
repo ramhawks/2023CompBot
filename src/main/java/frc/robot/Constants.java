@@ -26,6 +26,8 @@ public final class Constants {
     public static final double GEAR_BOX_RATIO             =8.46;
     public static final double MOTOR_ENCODER_CPR          =42;
     public static final double WHEEL_CPR                  =GEAR_BOX_RATIO * MOTOR_ENCODER_CPR;
+    public static final double DRIVE_CPI                  =WHEEL_CPR / DRIVE_WHEEL_CIRC; 
+
 
     public static final double OPEN_LOOP_RAMP_RATE        =1;
   }
